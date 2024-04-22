@@ -16,10 +16,12 @@ function Header() {
         <div className="p-4 bg-dark flex gap-2 max-h-[168px]">
           <div>
             <h2 className="font-semibold">Safe Margins Index</h2>
-            <div className="text-sm text-white-light line-clamp-4 mt-auto">You score currently meets the threshold 0.7 is required for renewal eligibility.</div>
+            <div className="text-sm text-white-light line-clamp-4 mt-auto">
+              You score currently meets the threshold 0.7 is required for renewal eligibility.
+            </div>
           </div>
           <div className="w-[120px]">
-              <Chart options={radialBar} series={radialBar.series} type="radialBar" width="250" />
+            <Chart options={radialBar} series={radialBar.series} type="radialBar" width="250" />
           </div>
         </div>
         <div className="p-4 bg-dark max-h-[168px]">
